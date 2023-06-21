@@ -1,4 +1,4 @@
-# Mtech limited Php SDK
+# Mtech Php SDK
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/mtechke/api)](https://packagist.org/packages/mtechke/api)
 
