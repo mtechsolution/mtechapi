@@ -30,9 +30,9 @@ use Mtechke\Api\MtechApi;;
 
 $username = 'YOUR_USERNAME'; 
 $apiKey   = 'YOUR_API_KEY'; 
-$mtechApi       = new MtechApi($username, $apiKey);
+$mtechApi = new MtechApi($username, $apiKey);
 
-$token      = $mtechApi->token();
+$token    = $mtechApi->token();
 $result   = $token->getToken();
 
 print_r($result);
@@ -45,10 +45,10 @@ use Mtechke\Api\MtechApi;;
 
 $username = 'YOUR_USERNAME'; 
 $apiKey   = 'YOUR_API_KEY'; 
-$mtechApi       = new MtechApi($username, $apiKey);
+$mtechApi = new MtechApi($username, $apiKey);
 
 // Get one of the services
-$token      = $mtechApi->sms();
+$token    = $mtechApi->sms();
 
 $result   = $token->sendSms([
     "msisdns" => ["254XXXXXXXXX","254XXXXXXXXX"],
