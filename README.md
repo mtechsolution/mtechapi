@@ -47,7 +47,6 @@ $username = 'YOUR_USERNAME';
 $apiKey   = 'YOUR_API_KEY'; 
 $mtechApi = new MtechApi($username, $apiKey);
 
-// Get one of the services
 $token    = $mtechApi->sms();
 
 $result   = $token->sendSms([
@@ -82,6 +81,7 @@ print_r($result);
 - `msisdns`: This parameter takes an array containing the list of phone numbers to receive the message. E.g ["254726789778","254726789778"]
 
 **NB**: _We advice that you send the messages in batches (1-500 msisdns in each request ) to reduce the size of the payload_
+
 **NB**: _Use international country prefixes when providing the msisdns e.g 254712723648_
 
 ## Issues
