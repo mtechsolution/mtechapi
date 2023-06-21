@@ -34,7 +34,7 @@ $apiKey   = 'YOUR_API_KEY';
 $mtechApi       = new MtechApi($username, $apiKey);
 
 $token      = $mtechApi->token();
-$response   = $token->getToken();
+$result   = $token->getToken();
 
 print_r($result);
 ```
