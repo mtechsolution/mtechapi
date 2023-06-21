@@ -4,8 +4,7 @@
 
 > This SDK provides a seamless integration to MTECH products
 
-## Documentation
-
+[//]: # (## Documentation)
 [//]: # (Take a look at the [API docs here]&#40;http://docs.mtechcomm.co.ke)
 
 ## Install
