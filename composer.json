@@ -1,0 +1,25 @@
+{
+    "name": "mtechke/api",
+    "description": "Mtech sms api package",
+    "keywords": ["mtech", "sms", "text message", "api"],
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.0 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mtechke\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mtechsolution",
+            "email": "supportke@mtechcomm.co.ke"
+        }
+    ]
+}
