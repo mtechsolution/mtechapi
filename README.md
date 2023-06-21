@@ -1,6 +1,6 @@
 # Mtech limited Php SDK
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/africastalking/africastalking)](https://packagist.org/packages/africastalking/africastalking)
+[![Latest Stable Version](https://img.shields.io/packagist/v/mtechke/api)](https://packagist.org/packages/mtechke/api)
 
 > This SDK provides a seamless integration to MTECH products
 
